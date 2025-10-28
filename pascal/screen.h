@@ -11,3 +11,4 @@ void setTerminalColor(void);
 void setBGcolor(int c);
 
 // comments conflicting
+// some changes to commit
