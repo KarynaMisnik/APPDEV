@@ -10,3 +10,4 @@ void setFGcolor(int c);
 void setTerminalColor(void);
 void setBGcolor(int c);
 
+// some changes to commit
