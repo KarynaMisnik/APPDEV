@@ -1,11 +1,13 @@
 #pragma once
-/* there are usually 3 header files :
-* 1. constant declaration
-* 2. structure/class definition
-* 3. function declaration
-*/
+// there are usually 3 parts in a header file: 
+//	1) constant declaration
+//	2) struct/class definition
+//	3) function declaration
 
-// function declaretion
-
+// function declarations
 int factorial(int n);
 int n_choose_k(int n, int k);
+
+// this line is added by Github (remote)
+
+// this line is added by Visual Studio 2022 (local)

@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{efde0bf4-cbb9-487c-9aa2-d270d01888c9}</ProjectGuid>
+    <ProjectGuid>{8e374c82-9427-4a72-a0fb-468f2f406f65}</ProjectGuid>
     <RootNamespace>pascal</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

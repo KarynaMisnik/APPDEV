@@ -1,14 +1,15 @@
 #pragma once
-#include <stdio.h>
-#define SIZE 100
-enum COLORS {BLACK = 30, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE};
-//function declaration
-
-void clearScreen(void);
-void goToXY(int x, int y);
-void setFGcolor(int c);
-void setTerminalColor(void);
+// this line is added on Github
+// constant definitions
+enum COLORS{BLACK=30, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE};
+// function declarations
 void setBGcolor(int c);
+void clearScreen(void);
+void gotoXY(int x, int y);
+void setFGcolor(int c);
+void resetColors(void);
 
-// comments conflicting
-// some changes to commit
+// this line is added on Github (remote repo)
+// this line is a new change
+
+// this line is added by Visual Studio (local repo)

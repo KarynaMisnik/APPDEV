@@ -1,20 +1,27 @@
-#include <stdio.h>
 #include "screen.h"
+#include <stdio.h>
 
 void clearScreen(void) {
 	printf("\x1b[2J");
 	fflush(stdout);
 }
-void goToXY(int x, int y) {
+
+void gotoXY(int x, int y) {	// x:column, y:row
 	printf("\x1b[%d;%dH", y, x);
 	fflush(stdout);
 }
-void setFGcolor(int color) {
-	printf("\x1b[%d;1m", color);
+
+void setFGcolor(int c) {
+	printf("\x1b[%d;1m", c);
 	fflush(stdout);
 }
 
-void setBGcolor(int color) {
-	printf("\x1b[%dm", color+10);
+void setBGcolor(int c) {
+	printf("\x1b[%dm", c + 10);
+	fflush(stdout);
+}
+
+void resetColors(void) {
+	printf("\x1b[0m");
 	fflush(stdout);
 }

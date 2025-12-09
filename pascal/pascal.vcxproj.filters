@@ -24,13 +24,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pascal.c">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.c">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="screen.c">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
